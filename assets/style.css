@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    width:100%
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+.header {
+    justify-content: space-between ;
+}
+
+.header_first {
+    display: flex;
+}
+
+.header_map {
+
+}
+
+.header_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_logo {
+    float: right;
+}
+
+.header_logo > img {
+    width: 140px;
+    height: 120px;
+}
